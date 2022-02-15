@@ -14,11 +14,11 @@
 </head>
 
 <body>
-    <div class="bg-secondarybg">
+    
         <nav class="navbar navbar-light bg-light">
             <div class="container">
-                <i class="fa-brands fa-instagram fa-xl me-2"></i>
-                <a class="navbar-brand col font-family-sans-serif">
+                <i class="fa-brands fa-instagram fa-xl me-3"></i>
+                <a class="navbar-brand col">
                     <h2>Instagram</h2>
                 </a>
                 <!-- Button trigger modal -->
@@ -58,8 +58,8 @@
                     <button class="btn-ligth dropdown-toggle " type="button" id="dropdownMenu2"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         <i class="fa-solid fa-gear"></i>
-
                     </button>
+
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
                         <li><button class="dropdown-item" type="button">Action</button></li>
                         <li><button class="dropdown-item" type="button">Another action</button></li>
@@ -73,163 +73,169 @@
                 </div>
             </div>
         </nav>
-        <!--main-->
-        <ul class="nav nav-tabs  justify-content-center bg-white border-white " id="myTab" role="tablist">
-            <li class="nav-item  " role="presentation">
-                <button class="nav-link active mb-2 border-bottom" id="home-tab" data-bs-toggle="tab"
-                    data-bs-target="#grip" type="button" role="tab" aria-controls="home" aria-selected="true"><i
-                        class="fa-solid fa-grip secondary"></i>
-                </button>
+
+        <ul class="nav nav-pills justify-content-center " id="myTab" role="tablist">
+            <li class="nav-item " role="presentation">
+                <button class="nav-link active " id="home-tab" data-bs-toggle="pill" data-bs-target="#home" type="button"
+                    role="tab" aria-controls="home" aria-selected="true"><i class="fa-solid fa-grip"></i></button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link btn-secondary" id="profile-tab" data-bs-toggle="tab" data-bs-target="#list"
+                <button class="nav-link " id="profile-tab" data-bs-toggle="pill" data-bs-target="#profile"
                     type="button" role="tab" aria-controls="profile" aria-selected="false"><i
                         class="fa-solid fa-square"></i></button>
             </li>
         </ul>
 
         <!-- Tab panes -->
-
-        <div class="tab-pane active bg-secondary bg-gradient" id="grip" role="tabpanel" aria-labelledby="home-tab">
-
-            <div class="tab-pane" id="list" role="tabpanel" aria-labelledby="profile-tab">
-                <div class="d-flex flex-wrap justify-content-center mt-1 ">
-                    <img src="https://imgs-akamai.mnstatic.com/71/4f/714f6a7108c9379df5167de75462fe56.jpg?quality=75&format=pjpg&fit=bounds&width=1024&height=1024."
-                        class="card-img-top h-25 w-25 me-2 mt-2" alt="b">
-                    <img src=https://cdn.holidayguru.es/wp-content/uploads/2019/07/Zahara-de-los-Atunes_shutterstock_610416407_1920x1280-2.jpg"
-                        class="card-img-top h-25 w-25 me-2 mt-2" alt="b">
-                    <img src="http://us.hola.com/imagenes/viajes/20200817173701/fuerteventura-donde-estan-las-mejores-playas/0-856-527/playa-sotavento-fuerteventura-t.jpg?composite=0.9%7C1/8xw:*;right[0.02xw],bottom[0.02xw]%7CRJmqrP23Dz8EaRRxMm5bs07f5pu42i2f"
-                        class="card-img-top h-25 w-25 me-2 mt-2" alt="b">
-                    <img src="https://imgs-akamai.mnstatic.com/71/4f/714f6a7108c9379df5167de75462fe56.jpg?quality=75&format=pjpg&fit=bounds&width=1024&height=1024."
-                        class="card-img-top h-25 w-25 me-2 mt-2" alt="b">
+        <div class="tab-content">
+            <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div class="d-flex flex-wrap justify-content-center mt-1 p-0 ">
+                    <img src="https://i0.wp.com/lanoticia.com/wp-content/uploads/2020/08/playas.jpeg?fit=640%2C427&ssl=1"
+                        class="card-img-top h-25 w-25 me-1 mt-1 mb-0" alt="b">
+                        <img src="https://blog-eeuu.com/wp-content/uploads/2013/10/Beach_21.jpg"
+                        class="card-img-top h-25 w-25 me-1 mt-1 align-bottom" alt="b">
+                    <img src="https://www.ngenespanol.com/wp-content/uploads/2018/08/Las-5-mejores-playas-desconocidas-en-M%C3%A9xico.jpg"
+                        class="card-img-top h-25 w-25 me-1 mt-1 mb-0" alt="b">
+                    <img src="https://images.pexels.com/photos/3816807/pexels-photo-3816807.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                        class="card-img-top h-25 w-25 me-1 mt-1" alt="b">
                     <img src="https://de.holidaychecked.de/reiseziele/upload/img/grandes-playas-feinsandstrand.jpg"
-                        class="card-img-top h-25 w-25 me-2 mt-2" alt="b">
+                        class="card-img-top h-25 w-25 me-1 mt-1" alt="b">
                     <img src="https://imgs-akamai.mnstatic.com/71/4f/714f6a7108c9379df5167de75462fe56.jpg?quality=75&format=pjpg&fit=bounds&width=1024&height=1024."
-                        class="card-img-top h-25 w-25 me-2 mt-2" alt="b">
+                        class="card-img-top h-25 w-25 me-1 mt-1" alt="b">
+                        <img src="https://images.pexels.com/photos/6399305/pexels-photo-6399305.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                        class="card-img-top h-25 w-25 me-1 mt-1" alt="b">
+                        <img src="https://images.pexels.com/photos/11118960/pexels-photo-11118960.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                        class="card-img-top h-25 w-25 me-1 mt-1" alt="b">
+                    <img src="https://images.pexels.com/photos/3748827/pexels-photo-3748827.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                        class="card-img-top h-25 w-25 me-1 mt-1" alt="b">
+                       
                 </div>
+
 
             </div>
-
-
-
-            <!-- feed photos -->
-            <div class="container  d-flex flex-wrap justify-content-center">
-                <div class="card mt-3 mb-2 " style="width: 55rem; ">
-                    <div class="row d-flex mb-2">
-                        <div class="col-6 justify-content-between">
-                            <h3 class="card-title col"> My first photo</h3>
-                        </div>
-                        <div class="col-6 text-end text-secondary">
-                            <h3> 14/10<h3>
-                        </div>
-                    </div>
-                    <img src="http://defin.mx/wp-content/uploads/2018/10/Mexico-Beach.jpg" class="card-img-top"
-                        alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">23 likes</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor
-                            incididunt ut labore et dolore magna aliqua</p>
-                        <div class="row  mb-2">
-                            <div class="col-4">
-                                <i class="fa-solid fa-heart me-2 p-0"></i>
-                                <span>Coment...</span>
+            <div class="tab-pane bg-secondary bg-opacity-70" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <div class="container  d-flex flex-wrap justify-content-center">
+                    <div class="card mt-3 mb-5 " style="width: 55rem; ">
+                        <div class="row d-flex mb-2">
+                            <div class="col-6 justify-content-between">
+                                <h3 class="card-title col ms-2"> My first photo</h3>
                             </div>
-                            <div class=" col-8 d-flex align-items-end flex-column ">
-                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            <div class="col-6 text-end text-secondary">
+                                <h3> 14/10<h3>
+                            </div>
+                        </div>
+                        <img src="https://i0.wp.com/lanoticia.com/wp-content/uploads/2020/08/playas.jpeg?fit=640%2C427&ssl=1" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">23 likes</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor
+                                incididunt ut labore et dolore magna aliqua</p>
+                            <div class="row  mb-2">
+                                <div class="col-4">
+                                    <i class="fa-solid fa-heart me-2 fa-xl"></i>
+                                    <span>Comment...</span>
+                                </div>
+                                <div class=" col-8 d-flex align-items-end align-bottom flex-column ">
+                                    <i class="fa-solid fa-ellipsis-vertical fa-xl"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
+
+                    <div class="card  mt-3 mb-5" style="width: 55rem;">
+                        <div class="row d-flex">
+                            <div class="col-6 justify-content-between">
+                                <h3 class="card-title col ms-2"> My second photo</h3>
+                            </div>
+                            <div class="col-6 text-end text-secondary">
+                                <h3> 14/10<h3>
+                            </div>
+                        </div>
+                        <img src="https://blog-eeuu.com/wp-content/uploads/2013/10/Beach_21.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">43 likes</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua</p>
+                            <div class="row  mb-2 align-bottom">
+                                <div class="col-4 ">
+                                    <i class="fa-solid fa-heart me-2 fa-xl"></i>
+                                    <span>Comment...</span>
+                                </div>
+                                <div class=" col-8 d-flex align-items-end flex-column ">
+                                    <i class="fa-solid fa-ellipsis-vertical fa-xl"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mt-3 mb-5" style="width: 55rem;">
+                        <div class="row d-flex">
+                            <div class="col-6 justify-content-between">
+                                <h3 class="card-title col ms-2"> My third photo</h3>
+                            </div>
+                            <div class="col-6 text-end text-secondary">
+                                <h3> 16/10<h3>
+                            </div>
+                        </div>
+                        <img src="https://www.ngenespanol.com/wp-content/uploads/2018/08/Las-5-mejores-playas-desconocidas-en-M%C3%A9xico.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">23 likes</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua</p>
+                            <div class="row  mb-2">
+                                <div class="col-4">
+                                    <i class="fa-solid fa-heart me-2 fa-xl"></i>
+                                    <span>Comment...</span>
+                                </div>
+                                <div class=" col-8 d-flex align-items-end flex-column ">
+                                    <i class="fa-solid fa-ellipsis-vertical fa-xl"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mt-3 mb-5" style="width: 55rem;">
+                        <div class="row d-flex">
+                            <div class="col-6 justify-content-between">
+                                <h3 class="card-title col ms-2"> My quarter photo</h3>
+                            </div>
+                            <div class="col-6 text-end text-secondary">
+                                <h3> 16/10<h3>
+                            </div>
+                        </div>
+
+                        <img src="https://images.pexels.com/photos/6399305/pexels-photo-6399305.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">32 likes</h5>
+                            <p class="card-text mt-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua</p>
+                            <div class="row  mb-2">
+                                <div class="col-4">
+                                    <i class="fa-solid fa-heart me-2 fa-xl"></i>
+                                    <span>Coment...</span>
+                                </div>
+                                <div class=" col-8 d-flex align-items-end flex-column ">
+                                    <i class="fa-solid fa-ellipsis-vertical fa-xl"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="card mt-3 mb-2" style="width: 55rem;">
-                    <div class="row d-flex">
-                        <div class="col-6 justify-content-between">
-                            <h3 class="card-title col"> My second photo</h3>
-                        </div>
-                        <div class="col-6 text-end text-secondary">
-                            <h3> 14/10<h3>
-                        </div>
-                    </div>
-                    <img src="https://cdn.holidayguru.es/wp-content/uploads/2019/07/Zahara-de-los-Atunes_shutterstock_610416407_1920x1280-2.jpg"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">43 likes</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua</p>
-                        <div class="row  mb-2">
-                            <div class="col-4">
-                                <i class="fa-solid fa-heart me-2 p-0"></i>
-                                <span>Coment...</span>
-                            </div>
-                            <div class=" col-8 d-flex align-items-end flex-column ">
-                                <i class="fa-solid fa-ellipsis-vertical"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card mt-3 mb-3" style="width: 55rem;">
-                    <div class="row d-flex">
-                        <div class="col-6 justify-content-between">
-                            <h3 class="card-title col"> My third photo</h3>
-                        </div>
-                        <div class="col-6 text-end text-secondary">
-                            <h3> 16/10<h3>
-                        </div>
-                    </div>
-                    <img src="http://us.hola.com/imagenes/viajes/20200817173701/fuerteventura-donde-estan-las-mejores-playas/0-856-527/playa-sotavento-fuerteventura-t.jpg?composite=0.9%7C1/8xw:*;right[0.02xw],bottom[0.02xw]%7CRJmqrP23Dz8EaRRxMm5bs07f5pu42i2f"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">23 likes</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua</p>
-                        <div class="row  mb-2">
-                            <div class="col-4">
-                                <i class="fa-solid fa-heart me-2 p-0"></i>
-                                <span>Coment...</span>
-                            </div>
-                            <div class=" col-8 d-flex align-items-end flex-column ">
-                                <i class="fa-solid fa-ellipsis-vertical"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card mt-3 mb-3" style="width: 55rem;">
-                    <div class="row d-flex">
-                        <div class="col-6 justify-content-between">
-                            <h3 class="card-title col"> My quarter photo</h3>
-                        </div>
-                        <div class="col-6 text-end text-secondary">
-                            <h3> 16/10<h3>
-                        </div>
-                    </div>
-
-                    <img src="http://us.hola.com/imagenes/viajes/20200730172908/las-playas-que-mas-nos-gustan-de-almeria/0-851-906/playa-de-los-muertos-almeria-t.jpg?composite=0.9%7C1/8xw:*;right[0.02xw],bottom[0.02xw]%7CRJmqrP23Dz8EaRRxMm5bs07f5pu42i2f"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">32 likes</h5>
-                        <p class="card-text mt-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua</p>
-                        <div class="row  mb-2">
-                            <div class="col-4">
-                                <i class="fa-solid fa-heart me-2 p-0"></i>
-                                <span>Coment...</span>
-                            </div>
-                            <div class=" col-8 d-flex align-items-end flex-column ">
-                                <i class="fa-solid fa-ellipsis-vertical"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Content here -->
             </div>
-            <!-- main content, button group, grid and list view -->
 
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-                crossorigin="anonymous"></script>
         </div>
+        <!-- feed photos -->
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
 
 </body>
 
